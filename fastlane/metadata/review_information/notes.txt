@@ -1,0 +1,15 @@
+The only usage-description string in the build settings is the camera string: This app does not use the camera. The app never asks for camera, microphone, photos, or location, and no system permission alert appears.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Docquet is a daybook for freelancers who file cash and miles by project. It is a personal blotter on the Expenses month grid, not a bank link or an invoice builder. Balance is billed versus personal for the month.
+
+No credentials or demo account are needed. Cold launch on a device shows four onboarding pages titled Tap a day, File the line, Billed versus personal, and The mileage chain. Tap Continue on the first three pages or Start on the last, or tap Skip. The app then opens the Expenses tab. If there are no projects yet, Expenses shows This month is empty and Log an expense or a trip; tap File today's line. Otherwise tap a day cell on the month grid. The blotter offers Cash or Miles. If there is no project yet, enter Project name and Mileage rate, optionally Starting miles, then tap Add project. For Cash, enter Amount, choose Billable or Personal, and tap File. For Miles, Start is the project's last end reading; enter End odometer, choose Billable or Personal, and tap File. Open Mileage chain from the Expenses toolbar to see each project's last end reading, or tap a project on Balance. Balance shows Billed versus personal, Billed, Personal, Cash billed, and Miles billed. Use the month chevrons labelled Previous month and Next month to change the month. Settings holds Export CSV, Share the books after a successful export, Contact Docquet, Re-run onboarding, and Reset all data. Reset all data asks Erase every filed line? Confirm with Reset all data or Cancel. Simulator builds may already show sample projects named Lantern Loft, Quay Drawings, and Ridge Survey with lines already filed, so onboarding may already be finished and Expenses is populated.
+
+Filed lines stay on this device. Export CSV writes the books on this device. Share the books is how a file can leave the device. Contact Docquet opens the contact page.
+
+Behaviour does not differ by region. Currency and dates follow the device locale.
+
+No licence or regulated-industry paperwork applies. This is a personal daybook, not a bank, tax filer, or clinical product.
+
+The app is a personal log only and gives no recommendations.

@@ -1,0 +1,9 @@
+Version 1.0 is the first release of Docquet, a daybook for cash and miles by project.
+
+Tap a day on Expenses to file Cash or Miles against a project. Cash writes an Amount. Miles writes Start and End odometer, and distance is end minus start. Mark the line Billable or Personal. Billable folds into This month billed. Personal stays on the blotter and out of the billed total.
+
+Add a project with Project name, Mileage rate and optional Starting miles. The mileage chain starts the next trip at that project's last end reading. Cash never moves the chain.
+
+Balance shows billed versus personal by project, plus Cash billed and Miles billed. Settings holds Export CSV, Share the books, Contact Docquet, Re-run onboarding and Reset all data.
+
+File keeps each line on this device. There is no account, bank link or invoice builder.

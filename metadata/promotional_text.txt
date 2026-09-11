@@ -1,0 +1,1 @@
+Tap a day on Expenses to file cash or miles against a project. Billable lines fold into Balance. The mileage chain starts each trip at the last end reading.

@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E23937FE61C71FB02C2FFB7 /* InlineBlotter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1F4BED1724F25F05A2593E /* InlineBlotter.swift */; };
+		14A27B4FF521FD5F3913E8F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C686818DF8700D8F8763945 /* Assets.xcassets */; };
+		1CF0282B18689F8F67C184B6 /* Outlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C00E25E2304A9BD68649D /* Outlay.swift */; };
+		1D248E22F7C9DF189F69053E /* DaybookHold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E777E0F0A1D559A37A02E21 /* DaybookHold.swift */; };
+		1F3CC07C3025C1A8714F1C5A /* DaybookStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527F6A2CFE87016FB54695E8 /* DaybookStoreTests.swift */; };
+		24BD3D2F1BC3BC5931987849 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02DCD8FC8CC136756B2A2D0 /* Trip.swift */; };
+		253E1206077ABC9D4E0EF05A /* JobDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E0DBBA64BB57F9F1E35E8 /* JobDraft.swift */; };
+		25CA5113D9FDEFAFF951DA15 /* OnboardingWalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4D1A5BCBFE5FAC4B4020E6 /* OnboardingWalk.swift */; };
+		2E86603EE79CB96D033BA17D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F287A869960918487F4A6EE /* AppDelegate.swift */; };
+		325BF4BB6B79C0FAA19A1DA6 /* BlotterClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECBFF46E7F423C78961C44 /* BlotterClientTests.swift */; };
+		34DD22264ED9438FAA686F44 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 00E20E4834B3F7AEDDA3047E /* Alamofire */; };
+		3E36CECCFFB7B3FB7F6A6222 /* JobBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B8290ABAB0207752513AEB /* JobBooks.swift */; };
+		40ACC31FF3D9D0812FDDE24F /* DaybookChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A5284183A8F5D5A5A0D13A /* DaybookChainTests.swift */; };
+		44DA81A48BFC204AD1843162 /* BillableFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B20104EC5D8419A47B4ED8 /* BillableFold.swift */; };
+		4BBC976962971B4063B7C064 /* MonthBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB50DFBD5C30406CDE69B1 /* MonthBoard.swift */; };
+		4D97F7E9F82F2020FC98F843 /* BlotterChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766FA923E933CDA5060A58F8 /* BlotterChrome.swift */; };
+		4ED33725E4864DED905D825A /* DaybookSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E8B307BF7E4E6ABD2EF1D6 /* DaybookSeed.swift */; };
+		51CC933AAEFB0DA9375122C2 /* DaybookSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5FDFDEA07346A24D0C84B /* DaybookSessionTests.swift */; };
+		527FB1D44804FF0A2F5954D5 /* BlotterInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073720C74F97A9D286C45F0A /* BlotterInk.swift */; };
+		5352BE5562CE2B733E1013E8 /* BlotterLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1375D0DFEE1220726B9AD5 /* BlotterLaunch.swift */; };
+		5E08D4920E42E35B3F21B706 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391B5ABE4E82CA8CAD1729C5 /* Job.swift */; };
+		5E6C0E767C2562CEE85D0F64 /* BooksMix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6D842CCF7D4E054233663 /* BooksMix.swift */; };
+		651F7D1021D1ACAC1403AF08 /* BlotterLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590EF09351CD6AAE592E743F /* BlotterLine.swift */; };
+		6790991DE98B6D1B51BC4769 /* MonthLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAA02287AF49CDEAC3836B0 /* MonthLattice.swift */; };
+		6B345C7A962F6D8084D085E3 /* BooksExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE799A89B6FDC4E0B913B24 /* BooksExport.swift */; };
+		6CC54CE0680588588CF9BE0A /* BlotterEmptyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9850882A106B62AE4852856A /* BlotterEmptyPage.swift */; };
+		703CDB4FD89715D6994638A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61044E544B2DFD0F7D1AB32E /* ContentView.swift */; };
+		72E59031EAE9C6DDB2F22583 /* DaybookSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810238D68DE51465034B7CC /* DaybookSession.swift */; };
+		7A0A50109AA2137821815D99 /* BlotterFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5581936A69710BE283D27E1 /* BlotterFace.swift */; };
+		83D3C15E1CA4E1F2D719A747 /* Daybook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB1D2A5932989C04BCFF08E /* Daybook.swift */; };
+		876BB25EDAD3CD41A4A0D571 /* BlotterFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E146A7D70D9DDDDE7B4FC6 /* BlotterFigures.swift */; };
+		8AA1233121D45FAE9C662DE6 /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2A086062750D97FB87D031 /* FamilyInvariantTests.swift */; };
+		90C0B578E74195B0722ED4F6 /* OdometerPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6FCFD462DCE60AEA1A64F8 /* OdometerPane.swift */; };
+		A39EEB981E8133AAA20F7C84 /* BlotterCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085351370ADF34D2A36962B1 /* BlotterCopy.swift */; };
+		A779A6515DF0C77E4FADF34E /* Daykey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B150EF1CFD558B3FFBE5F2E /* Daykey.swift */; };
+		AD8EB70D8AD11A59C01D1248 /* BlotterFault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E2E948FA75106CFC7E54C0 /* BlotterFault.swift */; };
+		B2320769997946FE3970B1E0 /* ExpensesPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B19130662E2ED1256CEE3 /* ExpensesPane.swift */; };
+		B49D5332930F6F9354D7810C /* DocquetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C402824B42DD337D87699A68 /* DocquetTests.swift */; };
+		B581FC014CFB31CA2A1B3555 /* BlotterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB018E441BD97E9AC44E872 /* BlotterClient.swift */; };
+		B77FC1F6951861CD397134FF /* BlotterLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A35F0345893C4BBE8C957 /* BlotterLaunchTests.swift */; };
+		C240EEAC119A71BB818499EA /* DaybookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3116CC11E9AB8ACFE4F2EF /* DaybookStore.swift */; };
+		C399651739376C4EBE6157EF /* SettingsPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D7E7BBD62DB157581563AD /* SettingsPane.swift */; };
+		CFC2D9F63B7919A0F7CC9D23 /* JobPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D6293937A81FF96C126247 /* JobPicker.swift */; };
+		D27C10E3332C624FF98E1BD4 /* BlotterSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E050B1B1BD4CEA467EEE93 /* BlotterSurface.swift */; };
+		DE51346ABC923FE67A269AB7 /* ChainRead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA668ED68F9ADA33AA89A8B /* ChainRead.swift */; };
+		E439D484FE3EBF5C08977FAB /* OdometerChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A85C253892B4468B85D21 /* OdometerChain.swift */; };
+		F131A23E0244BF6658131E74 /* BalancePane.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C608A0AFCDCE823C5F711D /* BalancePane.swift */; };
+		F726071EDAFA893BCFC00123 /* DocquetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F822EEB9F6F230FEEC06C1DD /* DocquetApp.swift */; };
+		F85A2FB6165395077A4E86C9 /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B4550F679C4923DC3BFDA /* Rate.swift */; };
+		F8BF6A3298AC258509B34192 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B78BF35301D5481BCEEBD3E /* APIConfig.swift */; };
+		FD4C4A92EB6C933C8A7A7DD7 /* DaybookCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200D43EF0B37FB229E14573D /* DaybookCodec.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCEE1EF25559AA6A24619AA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A951F88E7759BCE04858A5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EDA05E552F906AE51DD02CC;
+			remoteInfo = Docquet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		073720C74F97A9D286C45F0A /* BlotterInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlotterInk.swift; sourceTree = "<group>"; };
+		07D7E7BBD62DB157581563AD /* SettingsPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPane.swift; sourceTree = "<group>"; };
+		07E2E948FA75106CFC7E54C0 /* BlotterFault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlotterFault.swift; sourceTree = "<group>"; };
+		085351370ADF34D2A36962B1 /* BlotterCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlotterCopy.swift; sourceTree = "<group>"; };
+		10658C4AF69D74C8A0AE0390 /* Docquet.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Docquet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAA02287AF49CDEAC3836B0 /* MonthLattice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthLattice.swift; sourceTree = "<group>"; };
+		1C686818DF8700D8F8763945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		200D43EF0B37FB229E14573D /* DaybookCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaybookCodec.swift; sourceTree = "<group>"; };
+		20F5FDFDEA07346A24D0C84B /* DaybookSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaybookSessionTests.swift; sourceTree = "<group>"; };
+		2D8A35F0345893C4BBE8C957 /* BlotterLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlotterLaunchTests.swift; sourceTree = "<group>"; };
+		391B5ABE4E82CA8CAD1729C5 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		3B3116CC11E9AB8ACFE4F2EF /* DaybookStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaybookStore.swift; sourceTree = "<group>"; };
+		3B4D1A5BCBFE5FAC4B4020E6 /* OnboardingWalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingWalk.swift; sourceTree = "<group>"; };
+		3DB018E441BD97E9AC44E872 /* BlotterClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlotterClient.swift; sourceTree = "<group>"; };
+		3FA668ED68F9ADA33AA89A8B /* ChainRead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainRead.swift; sourceTree = "<group>"; };
+		42E8B307BF7E4E6ABD2EF1D6 /* DaybookSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaybookSeed.swift; sourceTree = "<group>"; };
+		43A409BBC059DEEB643323A1 /* DocquetTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DocquetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B150EF1CFD558B3FFBE5F2E /* Daykey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daykey.swift; sourceTree = "<group>"; };
+		527F6A2CFE87016FB54695E8 /* DaybookStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaybookStoreTests.swift; sourceTree = "<group>"; };
+		53D6293937A81FF96C126247 /* JobPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPicker.swift; sourceTree = "<group>"; };
+		590EF09351CD6AAE592E743F /* BlotterLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlotterLine.swift; sourceTree = "<group>"; };
+		5E1B4550F679C4923DC3BFDA /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
+		61044E544B2DFD0F7D1AB32E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B78BF35301D5481BCEEBD3E /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		72B20104EC5D8419A47B4ED8 /* BillableFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillableFold.swift; sourceTree = "<group>"; };
+		73A5284183A8F5D5A5A0D13A /* DaybookChainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaybookChainTests.swift; sourceTree = "<group>"; };
+		74B6D842CCF7D4E054233663 /* BooksMix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksMix.swift; sourceTree = "<group>"; };
+		766FA923E933CDA5060A58F8 /* BlotterChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlotterChrome.swift; sourceTree = "<group>"; };
+		7E777E0F0A1D559A37A02E21 /* DaybookHold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaybookHold.swift; sourceTree = "<group>"; };
+		8810238D68DE51465034B7CC /* DaybookSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaybookSession.swift; sourceTree = "<group>"; };
+		8C8E0DBBA64BB57F9F1E35E8 /* JobDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDraft.swift; sourceTree = "<group>"; };
+		8EE799A89B6FDC4E0B913B24 /* BooksExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksExport.swift; sourceTree = "<group>"; };
+		95B8290ABAB0207752513AEB /* JobBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobBooks.swift; sourceTree = "<group>"; };
+		9850882A106B62AE4852856A /* BlotterEmptyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlotterEmptyPage.swift; sourceTree = "<group>"; };
+		9AB1D2A5932989C04BCFF08E /* Daybook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daybook.swift; sourceTree = "<group>"; };
+		9F287A869960918487F4A6EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A02DCD8FC8CC136756B2A2D0 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		A0ECBFF46E7F423C78961C44 /* BlotterClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlotterClientTests.swift; sourceTree = "<group>"; };
+		AF6FCFD462DCE60AEA1A64F8 /* OdometerPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdometerPane.swift; sourceTree = "<group>"; };
+		B50A85C253892B4468B85D21 /* OdometerChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdometerChain.swift; sourceTree = "<group>"; };
+		B86C00E25E2304A9BD68649D /* Outlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outlay.swift; sourceTree = "<group>"; };
+		C2E050B1B1BD4CEA467EEE93 /* BlotterSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlotterSurface.swift; sourceTree = "<group>"; };
+		C402824B42DD337D87699A68 /* DocquetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocquetTests.swift; sourceTree = "<group>"; };
+		C5581936A69710BE283D27E1 /* BlotterFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlotterFace.swift; sourceTree = "<group>"; };
+		C8E146A7D70D9DDDDE7B4FC6 /* BlotterFigures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlotterFigures.swift; sourceTree = "<group>"; };
+		CFAB50DFBD5C30406CDE69B1 /* MonthBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthBoard.swift; sourceTree = "<group>"; };
+		DA1F4BED1724F25F05A2593E /* InlineBlotter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineBlotter.swift; sourceTree = "<group>"; };
+		EF1375D0DFEE1220726B9AD5 /* BlotterLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlotterLaunch.swift; sourceTree = "<group>"; };
+		F5C608A0AFCDCE823C5F711D /* BalancePane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancePane.swift; sourceTree = "<group>"; };
+		F822EEB9F6F230FEEC06C1DD /* DocquetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocquetApp.swift; sourceTree = "<group>"; };
+		FA6B19130662E2ED1256CEE3 /* ExpensesPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesPane.swift; sourceTree = "<group>"; };
+		FD2A086062750D97FB87D031 /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16BE4F16834B35A6C1490068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DD22264ED9438FAA686F44 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BA09772DCE6AA2EE2104729 /* Rate */ = {
+			isa = PBXGroup;
+			children = (
+				72B20104EC5D8419A47B4ED8 /* BillableFold.swift */,
+				5E1B4550F679C4923DC3BFDA /* Rate.swift */,
+			);
+			path = Rate;
+			sourceTree = "<group>";
+		};
+		0F930EBB30D638291926671A /* Chain */ = {
+			isa = PBXGroup;
+			children = (
+				F5C608A0AFCDCE823C5F711D /* BalancePane.swift */,
+				766FA923E933CDA5060A58F8 /* BlotterChrome.swift */,
+				3DB018E441BD97E9AC44E872 /* BlotterClient.swift */,
+				085351370ADF34D2A36962B1 /* BlotterCopy.swift */,
+				9850882A106B62AE4852856A /* BlotterEmptyPage.swift */,
+				C5581936A69710BE283D27E1 /* BlotterFace.swift */,
+				07E2E948FA75106CFC7E54C0 /* BlotterFault.swift */,
+				C8E146A7D70D9DDDDE7B4FC6 /* BlotterFigures.swift */,
+				073720C74F97A9D286C45F0A /* BlotterInk.swift */,
+				EF1375D0DFEE1220726B9AD5 /* BlotterLaunch.swift */,
+				590EF09351CD6AAE592E743F /* BlotterLine.swift */,
+				C2E050B1B1BD4CEA467EEE93 /* BlotterSurface.swift */,
+				8EE799A89B6FDC4E0B913B24 /* BooksExport.swift */,
+				74B6D842CCF7D4E054233663 /* BooksMix.swift */,
+				9AB1D2A5932989C04BCFF08E /* Daybook.swift */,
+				200D43EF0B37FB229E14573D /* DaybookCodec.swift */,
+				7E777E0F0A1D559A37A02E21 /* DaybookHold.swift */,
+				42E8B307BF7E4E6ABD2EF1D6 /* DaybookSeed.swift */,
+				8810238D68DE51465034B7CC /* DaybookSession.swift */,
+				3B3116CC11E9AB8ACFE4F2EF /* DaybookStore.swift */,
+				4B150EF1CFD558B3FFBE5F2E /* Daykey.swift */,
+				FA6B19130662E2ED1256CEE3 /* ExpensesPane.swift */,
+				DA1F4BED1724F25F05A2593E /* InlineBlotter.swift */,
+				CFAB50DFBD5C30406CDE69B1 /* MonthBoard.swift */,
+				1BAA02287AF49CDEAC3836B0 /* MonthLattice.swift */,
+				B50A85C253892B4468B85D21 /* OdometerChain.swift */,
+				3B4D1A5BCBFE5FAC4B4020E6 /* OnboardingWalk.swift */,
+				07D7E7BBD62DB157581563AD /* SettingsPane.swift */,
+			);
+			path = Chain;
+			sourceTree = "<group>";
+		};
+		38FEF1CB5A6F023214C5EB8A = {
+			isa = PBXGroup;
+			children = (
+				9D0BE3A8A9A02F643B4BFE78 /* Docquet */,
+				94CA24CF54CF2C80C458D07A /* DocquetTests */,
+				6CF7CD4B34B2B68F9DFDFBE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CF7CD4B34B2B68F9DFDFBE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10658C4AF69D74C8A0AE0390 /* Docquet.app */,
+				43A409BBC059DEEB643323A1 /* DocquetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		867FE9DC924BDB7C018F6EDF /* Job */ = {
+			isa = PBXGroup;
+			children = (
+				391B5ABE4E82CA8CAD1729C5 /* Job.swift */,
+				95B8290ABAB0207752513AEB /* JobBooks.swift */,
+				8C8E0DBBA64BB57F9F1E35E8 /* JobDraft.swift */,
+				53D6293937A81FF96C126247 /* JobPicker.swift */,
+			);
+			path = Job;
+			sourceTree = "<group>";
+		};
+		930EF217FD47352897F01F84 /* Outlay */ = {
+			isa = PBXGroup;
+			children = (
+				B86C00E25E2304A9BD68649D /* Outlay.swift */,
+			);
+			path = Outlay;
+			sourceTree = "<group>";
+		};
+		94CA24CF54CF2C80C458D07A /* DocquetTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0ECBFF46E7F423C78961C44 /* BlotterClientTests.swift */,
+				2D8A35F0345893C4BBE8C957 /* BlotterLaunchTests.swift */,
+				73A5284183A8F5D5A5A0D13A /* DaybookChainTests.swift */,
+				20F5FDFDEA07346A24D0C84B /* DaybookSessionTests.swift */,
+				527F6A2CFE87016FB54695E8 /* DaybookStoreTests.swift */,
+				C402824B42DD337D87699A68 /* DocquetTests.swift */,
+				FD2A086062750D97FB87D031 /* FamilyInvariantTests.swift */,
+			);
+			path = DocquetTests;
+			sourceTree = "<group>";
+		};
+		9D0BE3A8A9A02F643B4BFE78 /* Docquet */ = {
+			isa = PBXGroup;
+			children = (
+				6B78BF35301D5481BCEEBD3E /* APIConfig.swift */,
+				9F287A869960918487F4A6EE /* AppDelegate.swift */,
+				1C686818DF8700D8F8763945 /* Assets.xcassets */,
+				61044E544B2DFD0F7D1AB32E /* ContentView.swift */,
+				F822EEB9F6F230FEEC06C1DD /* DocquetApp.swift */,
+				0F930EBB30D638291926671A /* Chain */,
+				867FE9DC924BDB7C018F6EDF /* Job */,
+				930EF217FD47352897F01F84 /* Outlay */,
+				0BA09772DCE6AA2EE2104729 /* Rate */,
+				EF5DD8F37281D45954AA44A9 /* Trip */,
+			);
+			path = Docquet;
+			sourceTree = "<group>";
+		};
+		EF5DD8F37281D45954AA44A9 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				3FA668ED68F9ADA33AA89A8B /* ChainRead.swift */,
+				AF6FCFD462DCE60AEA1A64F8 /* OdometerPane.swift */,
+				A02DCD8FC8CC136756B2A2D0 /* Trip.swift */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EDA05E552F906AE51DD02CC /* Docquet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4A40F0012644C9C10024B2 /* Build configuration list for PBXNativeTarget "Docquet" */;
+			buildPhases = (
+				4D6163A13BC5704B4AC2C7A9 /* Sources */,
+				8ED7B7B51DF32EEDFFDEEC58 /* Resources */,
+				16BE4F16834B35A6C1490068 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Docquet;
+			packageProductDependencies = (
+				00E20E4834B3F7AEDDA3047E /* Alamofire */,
+			);
+			productName = Docquet;
+			productReference = 10658C4AF69D74C8A0AE0390 /* Docquet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C31CD364C8DE9AAC32CDB213 /* DocquetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73C1CA9BEDFA34F3028AA350 /* Build configuration list for PBXNativeTarget "DocquetTests" */;
+			buildPhases = (
+				EA271CD51CCA8ADC8DBC2D33 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35C1FEFE031F1BD10D31036F /* PBXTargetDependency */,
+			);
+			name = DocquetTests;
+			packageProductDependencies = (
+			);
+			productName = DocquetTests;
+			productReference = 43A409BBC059DEEB643323A1 /* DocquetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A951F88E7759BCE04858A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0EDA05E552F906AE51DD02CC = {
+						ProvisioningStyle = Automatic;
+					};
+					C31CD364C8DE9AAC32CDB213 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 17C404EBE310DCF769985DCB /* Build configuration list for PBXProject "Docquet" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 38FEF1CB5A6F023214C5EB8A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9F3022437FFE86B3DDFA87DA /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6CF7CD4B34B2B68F9DFDFBE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EDA05E552F906AE51DD02CC /* Docquet */,
+				C31CD364C8DE9AAC32CDB213 /* DocquetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ED7B7B51DF32EEDFFDEEC58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A27B4FF521FD5F3913E8F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D6163A13BC5704B4AC2C7A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BF6A3298AC258509B34192 /* APIConfig.swift in Sources */,
+				2E86603EE79CB96D033BA17D /* AppDelegate.swift in Sources */,
+				F131A23E0244BF6658131E74 /* BalancePane.swift in Sources */,
+				44DA81A48BFC204AD1843162 /* BillableFold.swift in Sources */,
+				4D97F7E9F82F2020FC98F843 /* BlotterChrome.swift in Sources */,
+				B581FC014CFB31CA2A1B3555 /* BlotterClient.swift in Sources */,
+				A39EEB981E8133AAA20F7C84 /* BlotterCopy.swift in Sources */,
+				6CC54CE0680588588CF9BE0A /* BlotterEmptyPage.swift in Sources */,
+				7A0A50109AA2137821815D99 /* BlotterFace.swift in Sources */,
+				AD8EB70D8AD11A59C01D1248 /* BlotterFault.swift in Sources */,
+				876BB25EDAD3CD41A4A0D571 /* BlotterFigures.swift in Sources */,
+				527FB1D44804FF0A2F5954D5 /* BlotterInk.swift in Sources */,
+				5352BE5562CE2B733E1013E8 /* BlotterLaunch.swift in Sources */,
+				651F7D1021D1ACAC1403AF08 /* BlotterLine.swift in Sources */,
+				D27C10E3332C624FF98E1BD4 /* BlotterSurface.swift in Sources */,
+				6B345C7A962F6D8084D085E3 /* BooksExport.swift in Sources */,
+				5E6C0E767C2562CEE85D0F64 /* BooksMix.swift in Sources */,
+				DE51346ABC923FE67A269AB7 /* ChainRead.swift in Sources */,
+				703CDB4FD89715D6994638A5 /* ContentView.swift in Sources */,
+				83D3C15E1CA4E1F2D719A747 /* Daybook.swift in Sources */,
+				FD4C4A92EB6C933C8A7A7DD7 /* DaybookCodec.swift in Sources */,
+				1D248E22F7C9DF189F69053E /* DaybookHold.swift in Sources */,
+				4ED33725E4864DED905D825A /* DaybookSeed.swift in Sources */,
+				72E59031EAE9C6DDB2F22583 /* DaybookSession.swift in Sources */,
+				C240EEAC119A71BB818499EA /* DaybookStore.swift in Sources */,
+				A779A6515DF0C77E4FADF34E /* Daykey.swift in Sources */,
+				F726071EDAFA893BCFC00123 /* DocquetApp.swift in Sources */,
+				B2320769997946FE3970B1E0 /* ExpensesPane.swift in Sources */,
+				0E23937FE61C71FB02C2FFB7 /* InlineBlotter.swift in Sources */,
+				5E08D4920E42E35B3F21B706 /* Job.swift in Sources */,
+				3E36CECCFFB7B3FB7F6A6222 /* JobBooks.swift in Sources */,
+				253E1206077ABC9D4E0EF05A /* JobDraft.swift in Sources */,
+				CFC2D9F63B7919A0F7CC9D23 /* JobPicker.swift in Sources */,
+				4BBC976962971B4063B7C064 /* MonthBoard.swift in Sources */,
+				6790991DE98B6D1B51BC4769 /* MonthLattice.swift in Sources */,
+				E439D484FE3EBF5C08977FAB /* OdometerChain.swift in Sources */,
+				90C0B578E74195B0722ED4F6 /* OdometerPane.swift in Sources */,
+				25CA5113D9FDEFAFF951DA15 /* OnboardingWalk.swift in Sources */,
+				1CF0282B18689F8F67C184B6 /* Outlay.swift in Sources */,
+				F85A2FB6165395077A4E86C9 /* Rate.swift in Sources */,
+				C399651739376C4EBE6157EF /* SettingsPane.swift in Sources */,
+				24BD3D2F1BC3BC5931987849 /* Trip.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA271CD51CCA8ADC8DBC2D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325BF4BB6B79C0FAA19A1DA6 /* BlotterClientTests.swift in Sources */,
+				B77FC1F6951861CD397134FF /* BlotterLaunchTests.swift in Sources */,
+				40ACC31FF3D9D0812FDDE24F /* DaybookChainTests.swift in Sources */,
+				51CC933AAEFB0DA9375122C2 /* DaybookSessionTests.swift in Sources */,
+				1F3CC07C3025C1A8714F1C5A /* DaybookStoreTests.swift in Sources */,
+				B49D5332930F6F9354D7810C /* DocquetTests.swift in Sources */,
+				8AA1233121D45FAE9C662DE6 /* FamilyInvariantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35C1FEFE031F1BD10D31036F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EDA05E552F906AE51DD02CC /* Docquet */;
+			targetProxy = DCEE1EF25559AA6A24619AA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D0CD2AA43CEAC3BF71C3A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.docquet.blotter.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Docquet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Docquet";
+			};
+			name = Release;
+		};
+		11C0C5246C4CAB69A0A524DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Docquet;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = background;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.docquet.blotter;
+				PRODUCT_NAME = Docquet;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		506994E3D698607FCA4E68AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		955A04C524798BBF9FFF9486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.docquet.blotter.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Docquet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Docquet";
+			};
+			name = Debug;
+		};
+		9C990001E16DEA4144403CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Docquet;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = background;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.docquet.blotter;
+				PRODUCT_NAME = Docquet;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B489B44B44E3602628033C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C404EBE310DCF769985DCB /* Build configuration list for PBXProject "Docquet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B489B44B44E3602628033C98 /* Debug */,
+				506994E3D698607FCA4E68AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		73C1CA9BEDFA34F3028AA350 /* Build configuration list for PBXNativeTarget "DocquetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955A04C524798BBF9FFF9486 /* Debug */,
+				0D0CD2AA43CEAC3BF71C3A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8C4A40F0012644C9C10024B2 /* Build configuration list for PBXNativeTarget "Docquet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C990001E16DEA4144403CCA /* Debug */,
+				11C0C5246C4CAB69A0A524DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F3022437FFE86B3DDFA87DA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		00E20E4834B3F7AEDDA3047E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F3022437FFE86B3DDFA87DA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1A951F88E7759BCE04858A5E /* Project object */;
+}

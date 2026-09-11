@@ -1,0 +1,11 @@
+Docquet is a daybook for cash and miles by project. Freelancers tap a day on the Expenses month grid and file a line against a project.
+
+• Expenses is a month grid. Tap a day to file cash or miles. The header reads Tap a day to file cash or miles and shows This month billed.
+• Cash writes an Amount. Miles writes Start and End odometer. Distance is end minus start. File keeps the line on this device.
+• New project takes a Project name, Mileage rate and optional Starting miles, then Add project.
+• Mark a line Billable or Personal. Billable folds into this month billed. Personal stays on the blotter and out of the billed total.
+• Mileage chain: a trip starts at that project's last end reading. Cash never moves the chain.
+• Balance shows billed versus personal by project, plus Cash billed and Miles billed.
+• Settings holds Export CSV, Share the books, Contact Docquet, Re-run onboarding and Reset all data.
+
+No account, bank link or invoice builder. Nothing leaves this device until you share.
